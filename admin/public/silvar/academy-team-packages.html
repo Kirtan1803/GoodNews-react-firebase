@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-startbar="light" data-bs-theme="light">
+
+
+<!-- Mirrored from mannatthemes.com/silvar/default/academy-team-packages.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Jan 2026 08:02:26 GMT -->
+<head>
+    
+
+    <meta charset="utf-8" />
+            <title>Dashboard | Silvar - Admin & Dashboard Template</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+            <meta content="" name="author" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+            <!-- App favicon -->
+            <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+       
+    <link href="assets/libs/simple-datatables/style.css" rel="stylesheet" type="text/css" />
+     <!-- App css -->
+     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <!-- Top Bar Start -->
+    <div class="topbar d-print-none">
+        <div class="container-fluid">
+            <nav class="topbar-custom d-flex justify-content-between" id="topbar-custom">    
+        
+
+                <ul class="topbar-item list-unstyled d-inline-flex align-items-center mb-0">                        
+                    <li>
+                        <button class="nav-link mobile-menu-btn nav-icon" id="togglemenu">
+                            <i class="iconoir-sidebar-collapse collapse-icon"></i>
+                            <i class="iconoir-sidebar-expand expand-icon"></i>
+                        </button>
+                    </li>
+                    <li class="hide-phone app-search ">
+                        <form role="search" action="#" method="get">
+                            <input type="search" name="search" class="form-control top-search mb-0" placeholder="Search here...">
+                            <button type="submit"><iconify-icon icon="solar:magnifer-line-duotone" class="fs-20"></iconify-icon></button>
+                        </form>
+                    </li>                    
+                </ul>
+                <ul class="topbar-item list-unstyled d-inline-flex align-items-center mb-0">
+                    <li class="topbar-item">
+                        <a class="nav-link nav-icon" href="javascript:void(0);" id="light-dark-mode">
+                            <iconify-icon icon="solar:sun-2-line-duotone" class="fs-20 dark-mode"></iconify-icon>
+                            <iconify-icon icon="solar:moon-line-duotone" class="fs-20 light-mode"></iconify-icon>
+                        </a>                    
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="false" aria-expanded="false" data-bs-offset="0,19">
+                       <iconify-icon icon="solar:global-line-duotone" class="fs-20"></iconify-icon>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">English</a>
+                            <a class="dropdown-item" href="#">Spanish</a>
+                        </div>
+                    </li><!--end topbar-language-->
+                    <li class="dropdown topbar-item">
+                        <a class="nav-link dropdown-toggle arrow-none nav-icon position-relative" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="false" aria-expanded="false" data-bs-offset="0,19">
+                            <iconify-icon icon="solar:bell-line-duotone" class="fs-20"></iconify-icon>
+                            <span class="alert-badge"></span>
+                        </a>
+                        <div class="dropdown-menu stop dropdown-menu-end dropdown-lg py-0">
+                        
+                            <h5 class="dropdown-item-text m-0 py-3 d-flex justify-content-between align-items-center">
+                                Notifications <a href="#" class="badge text-body-tertiary badge-pill">
+                                    <i class="iconoir-plus-circle fs-4"></i>
+                                </a>
+                            </h5>
+                            <ul class="nav nav-tabs nav-tabs-custom nav-success nav-justified mb-1" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link mx-0 active" data-bs-toggle="tab" href="#All" role="tab" aria-selected="true">
+                                        All <span class="badge bg-primary-subtle text-primary badge-pill ms-1">24</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link mx-0" data-bs-toggle="tab" href="#Projects" role="tab" aria-selected="false" tabindex="-1">
+                                        Projects
+                                    </a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link mx-0" data-bs-toggle="tab" href="#Teams" role="tab" aria-selected="false" tabindex="-1">
+                                        Team
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="ms-0" style="max-height:230px;" data-simplebar>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="All" role="tabpanel" aria-labelledby="all-tab" tabindex="0">
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">2 min ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">
+                                                    <i class="iconoir-wolf fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">Your order is placed</h6>
+                                                    <small class="text-muted mb-0">Dummy text of the printing and industry.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">10 min ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">
+                                                    <i class="iconoir-apple-swift fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">Meeting with designers</h6>
+                                                    <small class="text-muted mb-0">It is a long established fact that a reader.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">40 min ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">                                                    
+                                                    <i class="iconoir-birthday-cake fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">UX 3 Task complete.</h6>
+                                                    <small class="text-muted mb-0">Dummy text of the printing.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">1 hr ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">
+                                                    <i class="iconoir-drone fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">Your order is placed</h6>
+                                                    <small class="text-muted mb-0">It is a long established fact that a reader.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">2 hrs ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">
+                                                    <i class="iconoir-user fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">Payment Successfull</h6>
+                                                    <small class="text-muted mb-0">Dummy text of the printing.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                    </div>
+                                    <div class="tab-pane fade" id="Projects" role="tabpanel" aria-labelledby="projects-tab" tabindex="0">
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">40 min ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">                                                    
+                                                    <i class="iconoir-birthday-cake fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">UX 3 Task complete.</h6>
+                                                    <small class="text-muted mb-0">Dummy text of the printing.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">1 hr ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">
+                                                    <i class="iconoir-drone fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">Your order is placed</h6>
+                                                    <small class="text-muted mb-0">It is a long established fact that a reader.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">2 hrs ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">
+                                                    <i class="iconoir-user fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">Payment Successfull</h6>
+                                                    <small class="text-muted mb-0">Dummy text of the printing.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                    </div>
+                                    <div class="tab-pane fade" id="Teams" role="tabpanel" aria-labelledby="teams-tab" tabindex="0">
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">1 hr ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">
+                                                    <i class="iconoir-drone fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">Your order is placed</h6>
+                                                    <small class="text-muted mb-0">It is a long established fact that a reader.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">2 hrs ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">
+                                                    <i class="iconoir-user fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">Payment Successfull</h6>
+                                                    <small class="text-muted mb-0">Dummy text of the printing.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <!-- All-->
+                            <a href="pages-notifications.html" class="dropdown-item text-center text-dark fs-13 py-2">
+                                View All <i class="fi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="dropdown topbar-item">                   
+                        <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="false" aria-expanded="false" data-bs-offset="0,19">
+                            <div class="d-flex align-items-center dropdown-item">
+                                <div class="flex-shrink-0">
+                                    <img src="assets/images/users/avatar-9.jpg" alt="" class="thumb-sm rounded-circle">
+                                </div>
+                                <div class="flex-grow-1 ms-2 text-truncate align-self-center">
+                                    <h6 class="my-0 fw-medium text-dark fs-12">William Martin</h6>
+                                    <small class="text-muted mb-0">Admin</small>
+                                </div><!--end media-body-->
+                            </div>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <a class="dropdown-item" href="pages-profile.html"><i class="las la-user fs-18 me-1 align-text-bottom"></i> Profile</a>
+                            <a class="dropdown-item" href="pages-profile.html"><i class="las la-cog fs-18 me-1 align-text-bottom"></i>Account Settings</a>
+                            <a class="dropdown-item" href="pages-profile.html"><i class="las la-lock fs-18 me-1 align-text-bottom"></i> Security</a>
+                            <a class="dropdown-item" href="pages-faq.html"><i class="las la-question-circle fs-18 me-1 align-text-bottom"></i> Help Center</a>                       
+                            <div class="dropdown-divider mb-0"></div>
+                            <a class="dropdown-item text-danger" href="auth-login.html"><i class="las la-power-off fs-18 me-1 align-text-bottom"></i> Logout</a>
+                        </div>
+                    </li>
+               
+    
+                
+    
+                
+                </ul><!--end topbar-nav-->
+            </nav>
+            <!-- end navbar-->
+        </div>
+    </div>
+    <!-- Top Bar End -->
+    <!-- leftbar-tab-menu -->
+    <div class="startbar d-print-none">
+        <!--start brand-->
+        <div class="brand d-flex">
+            <a href="index.html" class="logo">
+                <span>
+                    <img src="assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
+                </span>
+                <span class="">
+                    <img src="assets/images/logo-light.png" alt="logo-large" class="logo-lg logo-light">
+                    <img src="assets/images/logo-dark.png" alt="logo-large" class="logo-lg logo-dark">
+                </span>
+            </a>                 
+        </div>
+        <!--end brand--> 
+        <div class="position-relative ">
+            <div class="mobile-menu-btn-2 align-self-center">
+                <button class=" d-flex align-items-center" id="togglemenu">
+                    <i class="fa-solid fa-arrow-right-arrow-left collapse-icon"></i>
+                </button>
+            </div> 
+        </div>
+        <!--start startbar-menu-->
+        <div class="startbar-menu" >
+            <div class="startbar-collapse" id="startbarCollapse" data-simplebar>
+                <div class="d-flex align-items-start flex-column w-100">
+                    <!-- Navigation -->
+                    <ul class="navbar-nav mb-auto w-100">
+                        <li class="menu-label mt-2">
+                            <span>Academy App</span>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="academy-index.html">
+                                <iconify-icon icon="solar:home-angle-2-line-duotone"class=" menu-icon"></iconify-icon>
+                                <span>Dashboard</span>
+                                <span class="badge text-bg-pink ms-auto">New</span>
+                            </a>
+                        </li><!--end nav-item-->
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="academy-courses.html">
+                                <iconify-icon icon="solar:bag-2-line-duotone" class=" menu-icon" ></iconify-icon>
+                                <span>Courses</span>
+                            </a>
+                        </li><!--end nav-item-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="academy-bootcamp.html">
+                                <iconify-icon icon="solar:users-group-rounded-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Bootcamp</span>
+                            </a>
+                        </li><!--end nav-item-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="academy-team-packages.html">
+                                <iconify-icon icon="solar:file-check-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Team packages</span>
+                            </a>
+                        </li><!--end nav-item-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="academy-categories.html">
+                                <iconify-icon icon="solar:users-group-two-rounded-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>All categories</span>
+                            </a>
+                        </li><!--end nav-item-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="academy-enrollment.html">
+                                <iconify-icon icon="solar:square-academic-cap-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Enrollment</span>
+                            </a>
+                        </li><!--end nav-item-->  
+                        <li class="nav-item">
+                            <a class="nav-link" href="academy-students.html">
+                                <iconify-icon icon="solar:users-group-two-rounded-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Students</span>
+                            </a>
+                        </li><!--end nav-item--> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="academy-contacts.html">
+                                <iconify-icon icon="solar:book-2-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Contacts</span>
+                            </a>
+                        </li><!--end nav-item--> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="academy-blogs.html">
+                                <iconify-icon icon="solar:signpost-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Blogs</span>
+                            </a>
+                        </li><!--end nav-item--> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sidebarSettings" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarSettings">
+                                <iconify-icon icon="solar:settings-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Settings</span>
+                            </a>
+                            <div class="collapse " id="sidebarSettings">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="academy-system-setting.html">System Setting</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="academy-website-setting.html">Website Setting</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="academy-payment-setting.html">Payment Setting</a>
+                                    </li><!--end nav-item-->
+                                </ul><!--end nav-->
+                            </div><!--end startbarEmailTemplates-->
+                        </li><!--end nav-item-->             
+                        <li class="menu-label mt-2">
+                            <small class="label-border">
+                                <div class="border_left hidden-xs"></div>
+                                <div class="border_right"></div>
+                            </small>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span>Components</span>
+                                <div class="form-check form-switch form-switch-secondary align-self-center mh-auto mb-0">
+                                    <input class="form-check-input" type="checkbox" id="components-show-hide">
+                                    <label class="form-check-label fs-8 label-show" id="statusLabel" for="components-show-hide">Show</label>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarApps" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarApps">
+                                <iconify-icon icon="solar:round-graph-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Apps</span>
+                            </a>
+                            <div class="collapse " id="sidebarApps">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="apps-calendar.html">Calendar</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="apps-chat.html">Chat</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="apps-contact-list.html">Contact List</a>
+                                    </li><!--end nav-item--> 
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="apps-invoice.html">Invoice</a>
+                                    </li><!--end nav-item-->
+                                </ul><!--end nav-->
+                            </div><!--end startbarApps-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarElements" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarElements">
+                                <iconify-icon icon="solar:filters-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>UI Elements</span>
+                            </a>
+                            <div class="collapse " id="sidebarElements">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-alerts.html">Alerts</a>
+                                    </li><!--end nav-item--> 
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-avatar.html">Avatar</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-buttons.html">Buttons</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-badges.html">Badges</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-cards.html">Cards</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-carousels.html">Carousels</a>
+                                    </li><!--end nav-item-->                                
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-dropdowns.html">Dropdowns</a>
+                                    </li><!--end nav-item-->                                   
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-grids.html">Grids</a>
+                                    </li><!--end nav-item-->                                
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-images.html">Images</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-list.html">List</a>
+                                    </li><!--end nav-item-->                                   
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-modals.html">Modals</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-navs.html">Navs</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-navbar.html">Navbar</a>
+                                    </li><!--end nav-item--> 
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-paginations.html">Paginations</a>
+                                    </li><!--end nav-item-->   
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-popover-tooltips.html">Popover & Tooltips</a>
+                                    </li><!--end nav-item-->                                
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-progress.html">Progress</a>
+                                    </li><!--end nav-item-->                                
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-spinners.html">Spinners</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-tabs-accordions.html">Tabs & Accordions</a>
+                                    </li><!--end nav-item-->                               
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-typography.html">Typography</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-videos.html">Videos</a>
+                                    </li><!--end nav-item--> 
+                                </ul><!--end nav-->
+                            </div><!--end startbarElements-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarAdvancedUI" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarAdvancedUI">
+                                <iconify-icon icon="solar:bicycling-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Advanced UI</span><span class="badge rounded text-success bg-success-subtle ms-1">New</span>
+                            </a>
+                            <div class="collapse " id="sidebarAdvancedUI">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-animation.html">Animation</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-clipboard.html">Clip Board</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-dragula.html">Dragula</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-files.html">File Manager</a>
+                                    </li><!--end nav-item--> 
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-highlight.html">Highlight</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-rangeslider.html">Range Slider</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-ratings.html">Ratings</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-ribbons.html">Ribbons</a>
+                                    </li><!--end nav-item-->                                  
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-sweetalerts.html">Sweet Alerts</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-toasts.html">Toasts</a>
+                                    </li><!--end nav-item-->
+                                </ul><!--end nav-->
+                            </div><!--end startbarAdvancedUI-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarForms" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarForms">
+                                <iconify-icon icon="solar:documents-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Forms</span>
+                            </a>
+                            <div class="collapse " id="sidebarForms">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="forms-elements.html">Basic Elements</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="forms-advanced.html">Advance Elements</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="forms-validation.html">Validation</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="forms-wizard.html">Wizard</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="forms-editors.html">Editors</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="forms-uploads.html">File Upload</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="forms-img-crop.html">Image Crop</a>
+                                    </li><!--end nav-item-->
+                                </ul><!--end nav-->
+                            </div><!--end startbarForms-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarCharts" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarCharts">
+                                <iconify-icon icon="solar:chart-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Charts</span>
+                            </a>
+                            <div class="collapse " id="sidebarCharts">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="charts-apex.html">Apex</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="charts-justgage.html">JustGage</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="charts-chartjs.html">Chartjs</a>
+                                    </li><!--end nav-item--> 
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="charts-toast-ui.html">Toast</a>
+                                    </li><!--end nav-item--> 
+                                </ul><!--end nav-->
+                            </div><!--end startbarCharts-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarTables" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarTables">
+                                <iconify-icon icon="solar:server-minimalistic-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Tables</span>
+                            </a>
+                            <div class="collapse " id="sidebarTables">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="tables-basic.html">Basic</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="tables-datatable.html">Datatables</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="tables-editable.html">Editable</a>
+                                    </li><!--end nav-item--> 
+                                </ul><!--end nav-->
+                            </div><!--end startbarTables-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarIcons" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarIcons">
+                                <iconify-icon icon="solar:ufo-3-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Icons</span>
+                            </a>
+                            <div class="collapse " id="sidebarIcons">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="icons-fontawesome.html">Font Awesome</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="icons-lineawesome.html">Line Awesome</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="icons-icofont.html">Icofont</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="icons-iconoir.html">Iconoir</a>
+                                    </li><!--end nav-item-->
+                                </ul><!--end nav-->
+                            </div><!--end startbarIcons-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarMaps" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarMaps">
+                                <iconify-icon icon="solar:map-point-wave-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Maps</span>
+                            </a>
+                            <div class="collapse " id="sidebarMaps">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="maps-google.html">Google Maps</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="maps-leaflet.html">Leaflet Maps</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="maps-vector.html">Vector Maps</a>
+                                    </li><!--end nav-item--> 
+                                </ul><!--end nav-->
+                            </div><!--end startbarMaps-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarEmailTemplates" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarEmailTemplates">
+                                <iconify-icon icon="solar:letter-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Email Templates</span>
+                            </a>
+                            <div class="collapse " id="sidebarEmailTemplates">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="email-templates-basic.html">Basic Action Email</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="email-templates-alert.html">Alert Email</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="email-templates-billing.html">Billing Email</a>
+                                    </li><!--end nav-item-->  
+                                </ul><!--end nav-->
+                            </div><!--end startbarEmailTemplates-->
+                        </li><!--end nav-item-->
+                        <li class="menu-label mt-2 menu-hide d-none">
+                            <small class="label-border">
+                                <div class="border_left hidden-xs"></div>
+                                <div class="border_right"></div>
+                            </small>
+                            <span>Crafted</span>
+                        </li>
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarPages" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarPages">
+                                <iconify-icon icon="solar:notes-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Pages</span>
+                            </a>
+                            <div class="collapse " id="sidebarPages">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-profile.html">Profile</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-notifications.html">Notifications</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-timeline.html">Timeline</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-treeview.html">Treeview</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-starter.html">Starter Page</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-pricing.html">Pricing</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-blogs.html">Blogs</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-faq.html">FAQs</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-gallery.html">Gallery</a>
+                                    </li><!--end nav-item-->  
+                                </ul><!--end nav-->
+                            </div><!--end startbarPages-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarAuthentication" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarAuthentication">
+                                <iconify-icon icon="solar:lock-keyhole-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Authentication</span>
+                            </a>
+                            <div class="collapse " id="sidebarAuthentication">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="auth-login.html">Log in</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="auth-register.html">Register</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="auth-recover-pw.html">Re-Password</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="auth-lock-screen.html">Lock Screen</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="auth-maintenance.html">Maintenance</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="auth-404.html">Error 404</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="auth-500.html">Error 500</a>
+                                    </li><!--end nav-item-->
+                                </ul><!--end nav-->
+                            </div><!--end startbarAuthentication-->
+                        </li><!--end nav-item-->
+
+                    </ul><!--end navbar-nav--->
+                    <div class="update-msg text-center"> 
+                        <div class="d-flex justify-content-center align-items-center mx-auto mt-1">
+                            <img src="assets/images/extra/qr.svg" alt="" class="d-inline-block" height="40">
+                        </div>                   
+                        <h5 class="mt-3">Mannat Themes</h5>
+                        <p class="mb-3 text-muted">Silvar is a high quality web applications.</p>
+                        <a href="javascript: void(0);" class="btn btn-sm bg-black text-white shadow-sm rounded-pill mb-1">Upgrade your plan</a>
+                    </div>
+                </div>
+            </div><!--end startbar-collapse-->
+        </div><!--end startbar-menu-->    
+    </div><!--end startbar-->
+    <div class="startbar-overlay d-print-none"></div>
+
+
+    <script>
+
+        const switchBtn = document.getElementById('components-show-hide');
+        const menuItems = document.querySelectorAll('.menu-hide');
+        const statusLabel = document.getElementById('statusLabel');
+
+        switchBtn.addEventListener('change', function () {
+            const show = switchBtn.checked;
+
+            menuItems.forEach(item => {
+            item.classList.toggle('d-none', !show);
+            });
+
+            statusLabel.textContent = show ? 'Hide' : 'Show';
+        });
+    </script>
+    <!-- end leftbar-tab-menu-->
+
+    <div class="page-wrapper">
+
+        <!-- Page Content-->
+        <div class="page-content">
+            <div class="container-fluid">                 
+                
+                <div class="row">  
+                    <div class="col-md-7">
+                        <div class="row">  
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-0">Starter Team</h5>
+                                        <p class="text-muted mb-0">For small groups starting out</p>
+                                        <h2 class="my-3">$49 <small class="text-muted fs-12">/mo</small></h2>
+                                        <ul class="list-unstyled mb-3">
+                                            <li class="mb-1"><i class="las la-check text-success"></i> 5 Members</li>
+                                            <li class="mb-1"><i class="las la-check text-success"></i> 10 Courses Access</li>
+                                            <li class="mb-1"><i class="las la-check text-success"></i>  03 month Support</li>
+                                            <li class="mb-1"><i class="las la-check text-success"></i> Email Support</li>
+                                            <li class="mb-0"><i class="las la-times text-danger"></i> Dedicated Coach</li>
+                                        </ul>
+                                        <a href="#" class="btn btn-outline-primary btn-sm w-100">Choose Plan</a>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <div class="col-md-4">
+                                <div class="card border-primary">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-0 text-primary">Pro Team</h5>
+                                        <p class="text-muted mb-0">For growing teams & academies</p>
+                                        <h2 class="my-3">$99 <small class="text-muted fs-12">/mo</small></h2>
+                                        <ul class="list-unstyled mb-3">
+                                            <li class="mb-1"><i class="las la-check text-success"></i> 15 Members</li>
+                                            <li class="mb-1"><i class="las la-check text-success"></i> 25 Courses Access</li>
+                                            <li class="mb-1"><i class="las la-check text-success"></i>  06 month Support</li>
+                                            <li class="mb-1"><i class="las la-check text-success"></i> Priority Support</li>
+                                            <li class="mb-0"><i class="las la-check text-success"></i> Dedicated Coach</li>
+                                        </ul>
+                                        <a href="#" class="btn btn-primary btn-sm w-100">Most Popular</a>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-0">Enterprise</h5>
+                                        <p class="text-muted mb-0">Customized for large institutions</p>
+                                        <h2 class="my-3">Custom</h2>
+                                        <ul class="list-unstyled mb-3">
+                                            <li class="mb-1"><i class="las la-check text-success"></i> Unlimited Members</li>
+                                            <li class="mb-1"><i class="las la-check text-success"></i> All Courses</li>
+                                            <li class="mb-1"><i class="las la-check text-success"></i>  24/7 Support</li>
+                                            <li class="mb-1"><i class="las la-check text-success"></i>  12 month Support</li>
+                                            <li class="mb-0"><i class="las la-check text-success"></i>  Dedicated Training Manager</li>
+                                        </ul>
+                                        <a href="#" class="btn btn-outline-primary btn-sm w-100">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!--end col-->
+                    <div class="col-md-5">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">                      
+                                        <h4 class="card-title">Detailed Feature Comparison</h4>                      
+                                    </div><!--end col-->
+                                </div>  <!--end row-->                                  
+                            </div><!--end card-header-->
+                            <div class="card-body pt-0">
+                                <div class="table-responsive">
+                                    <table class="table mb-0">
+                                    <thead class="">
+                                        <tr>
+                                            <th scope="col" class="">Feature</th>
+                                            <th scope="col" class="">Starter</th>
+                                            <th scope="col" class="text-primary">Professional</th>
+                                            <th scope="col" class="">Enterprise</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="">
+                                        <tr>
+                                            <td class="">Maximum Students</td>
+                                            <td class="">10</td>
+                                            <td class="text-primary">50</td>
+                                            <td class="">Unlimited</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="">Included Courses</td>
+                                            <td class="">3</td>
+                                            <td class="text-primary">10</td>
+                                            <td class="">Unlimited</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="">Support</td>
+                                            <td class="">Email</td>
+                                            <td class="text-primary">24/5 Chat & Email</td>
+                                            <td class="">24/7 Priority</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="">API Access</td>
+                                            <td class=""><i class="fas fa-times text-danger"></i></td>
+                                            <td class="text-primary">Read-only</td>
+                                            <td class="">Full Access</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="">White-labeling</td>
+                                            <td class=""><i class="fas fa-times text-danger"></i></td>
+                                            <td class="text-primary">Basic</td>
+                                            <td class="">Full Customization</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->    
+                </div><!--end row-->
+                <div class="row justify-content-center">                    
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">                      
+                                        <h4 class="card-title">Team packages</h4>                      
+                                    </div><!--end col-->
+                                    <div class="col-md-6 text-end"> 
+                                        <input type="text" id="searchInput" class="form-control form-control-sm w-50 d-inline-block" placeholder="Search courses...">
+                                        <button type="button" class="btn btn-sm btn-outline-light d-inline-block">Add Course</button>                   
+                                    </div><!--end col-->
+                                </div>  <!--end row-->                                  
+                            </div><!--end card-header-->
+                            <div class="card-body pt-0">
+                                <div class="table-responsive">
+                                    <table class="table mb-0">
+                                        <thead class="">
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Course Name</th>
+                                                <th>Instructor</th>
+                                                <th>Duration</th>
+                                                <th>Lessons</th>
+                                                <th>Category</th>
+                                                <th>Status</th>
+                                                <th class="text-end">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="courseTable">
+                                            <tr>
+                                                <td>1</td>
+                                                <td>UI/UX Design Basics</td>
+                                                <td>John Doe</td>
+                                                <td>4 Weeks</td>
+                                                <td>14 Lessons</td>
+                                                <td>Design</td>
+                                                <td><span class="badge text-success border border-success px-2">Active</span></td>
+                                                <td class="text-end">       
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="iconoir-eye text-dark-emphasis fs-18"></i></a>                                  
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Delete"><i class="iconoir-xmark-circle text-dark-emphasis fs-18"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Python for Beginners</td>
+                                                <td>Jane Smith</td>
+                                                <td>6 Weeks</td>
+                                                <td>18 Lessons</td>
+                                                <td>Programming</td>
+                                                <td><span class="badge text-success border border-success px-2">Active</span></td>
+                                                <td class="text-end">       
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="iconoir-eye text-dark-emphasis fs-18"></i></a>                                  
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Delete"><i class="iconoir-xmark-circle text-dark-emphasis fs-18"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Advanced JavaScript</td>
+                                                <td>Emily Brown</td>
+                                                <td>5 Weeks</td>
+                                                <td>10 Lessons</td>
+                                                <td>Web Dev</td>
+                                                <td><span class="badge text-warning border border-warning px-2">Upcoming</span></td>
+                                                <td class="text-end">       
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="iconoir-eye text-dark-emphasis fs-18"></i></a>                                  
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Delete"><i class="iconoir-xmark-circle text-dark-emphasis fs-18"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>Digital Marketing</td>
+                                                <td>Robert King</td>
+                                                <td>3 Weeks</td>
+                                                <td>15 Lessons</td>
+                                                <td>Marketing</td>
+                                                <td><span class="badge text-danger border border-danger px-2">Closed</span></td>
+                                                <td class="text-end">       
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="iconoir-eye text-dark-emphasis fs-18"></i></a>                                  
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Delete"><i class="iconoir-xmark-circle text-dark-emphasis fs-18"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>Data Structures</td>
+                                                <td>Linda Green</td>
+                                                <td>8 Weeks</td>
+                                                <td>22 Lessons</td>
+                                                <td>Computer Science</td>
+                                                <td><span class="badge text-success border border-success px-2">Active</span></td>
+                                                <td class="text-end">       
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="iconoir-eye text-dark-emphasis fs-18"></i></a>                                  
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Delete"><i class="iconoir-xmark-circle text-dark-emphasis fs-18"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>6</td>
+                                                <td>React Fundamentals</td>
+                                                <td>Michael Clark</td>
+                                                <td>5 Weeks</td>
+                                                <td>24 Lessons</td>
+                                                <td>Frontend</td>
+                                                <td><span class="badge text-success border border-success px-2">Active</span></td>
+                                                <td class="text-end">       
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="iconoir-eye text-dark-emphasis fs-18"></i></a>                                  
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Delete"><i class="iconoir-xmark-circle text-dark-emphasis fs-18"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>7</td>
+                                                <td>Machine Learning Intro</td>
+                                                <td>Angela White</td>
+                                                <td>7 Weeks</td>
+                                                <td>14 Lessons</td>
+                                                <td>AI</td>
+                                                <td><span class="badge text-primary border border-primary px-2">Free</span></td>
+                                                <td class="text-end">       
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="iconoir-eye text-dark-emphasis fs-18"></i></a>                                  
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Delete"><i class="iconoir-xmark-circle text-dark-emphasis fs-18"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>8</td>
+                                                <td>Project Management</td>
+                                                <td>David Lee</td>
+                                                <td>6 Weeks</td>
+                                                <td>11 Lessons</td>
+                                                <td>Business</td>
+                                                <td><span class="badge text-success border border-success px-2">Active</span></td>
+                                                <td class="text-end">       
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="iconoir-eye text-dark-emphasis fs-18"></i></a>                                  
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Delete"><i class="iconoir-xmark-circle text-dark-emphasis fs-18"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>9</td>
+                                                <td>SQL Mastery</td>
+                                                <td>Chris Evans</td>
+                                                <td>3 Weeks</td>
+                                                <td>14 Lessons</td>
+                                                <td>Database</td>
+                                                <td><span class="badge text-success border border-success px-2">Active</span></td>
+                                                <td class="text-end">       
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="iconoir-eye text-dark-emphasis fs-18"></i></a>                                  
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Delete"><i class="iconoir-xmark-circle text-dark-emphasis fs-18"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>10</td>
+                                                <td>Graphic Design Pro</td>
+                                                <td>Susan Moore</td>
+                                                <td>4 Weeks</td>
+                                                <td>12 Lessons</td>
+                                                <td>Design</td>
+                                                <td><span class="badge text-danger border border-danger px-2">Closed</span></td>
+                                                <td class="text-end">       
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="iconoir-eye text-dark-emphasis fs-18"></i></a>                                  
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Delete"><i class="iconoir-xmark-circle text-dark-emphasis fs-18"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>11</td>
+                                                <td>Cybersecurity Basics</td>
+                                                <td>Tom Watson</td>
+                                                <td>5 Weeks</td>
+                                                <td>17 Lessons</td>
+                                                <td>Security</td>
+                                                <td><span class="badge text-success border border-success px-2">Active</span></td>
+                                                <td class="text-end">       
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="View"><i class="iconoir-eye text-dark-emphasis fs-18"></i></a>                                  
+                                                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Delete"><i class="iconoir-xmark-circle text-dark-emphasis fs-18"></i></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>                                      
+                                </div><!--end /div-->
+                                <div class="d-lg-flex justify-content-lg-between mt-2 align-items-center">
+                                    <div class="mb-2 mb-lg-0">
+                                        <p class="mb-0 text-truncate fw-medium fs-13 text-muted">01-05 of 12</p>
+                                    </div>
+                                    <div>
+                                        <ul class="pagination  pagination-sm mb-0">
+                                            <li class="page-item disabled">
+                                                <a class="page-link" href="#" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+                                            </li>
+                                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#">2</a>
+                                            </li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#"><span aria-hidden="true">&raquo;</span></a>
+                                            </li>
+                                        </ul><!--end pagination-->
+                                    </div>
+                                </div><!--end table-responsive--> 
+                            </div><!--end card-body--> 
+                        </div><!--end card--> 
+                    </div> <!--end col-->                                
+                </div><!--end row-->
+                
+            </div><!-- container -->
+
+            <!--Start Footer-->
+            
+            <footer class="footer text-center text-sm-start d-print-none">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card mb-0 rounded-bottom-0">
+                                <div class="card-body">
+                                    <p class="text-muted mb-0">
+                                        ©
+                                        <script> document.write(new Date().getFullYear()) </script>
+                                        Silvar
+                                        <span
+                                            class="text-muted d-none d-sm-inline-block float-end">
+                                            Design with
+                                            <i class="iconoir-heart-solid text-danger align-middle"></i>
+                                            by Mannatthemes</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <!--end footer-->
+        </div>
+        <!-- end page content -->
+    </div>
+    <!-- end page-wrapper -->
+
+    <!-- Javascript  -->
+    
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/iconify-icon/iconify-icon.min.js"></script>
+
+    <script src="assets/libs/simple-datatables/umd/simple-datatables.js"></script>
+    <script src="assets/js/pages/academy-courses.init.js"></script>
+    <script src="assets/js/app.js"></script>
+
+</body>
+<!--end body-->
+
+
+<!-- Mirrored from mannatthemes.com/silvar/default/academy-team-packages.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Jan 2026 08:02:26 GMT -->
+</html>

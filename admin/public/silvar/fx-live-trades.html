@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-startbar="light" data-bs-theme="light">
+
+
+<!-- Mirrored from mannatthemes.com/silvar/default/fx-live-trades.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Jan 2026 08:02:30 GMT -->
+<head>
+    
+
+    <meta charset="utf-8" />
+            <title>Dashboard | Silvar - Admin & Dashboard Template</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+            <meta content="" name="author" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+            <!-- App favicon -->
+            <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+       
+    <link href="assets/libs/simple-datatables/style.css" rel="stylesheet" type="text/css" />
+     <!-- App css -->
+     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <!-- Top Bar Start -->
+    <div class="topbar d-print-none">
+        <div class="container-fluid">
+            <nav class="topbar-custom d-flex justify-content-between" id="topbar-custom">    
+        
+
+                <ul class="topbar-item list-unstyled d-inline-flex align-items-center mb-0">                        
+                    <li>
+                        <button class="nav-link mobile-menu-btn nav-icon" id="togglemenu">
+                            <i class="iconoir-sidebar-collapse collapse-icon"></i>
+                            <i class="iconoir-sidebar-expand expand-icon"></i>
+                        </button>
+                    </li>
+                    <li class="hide-phone app-search ">
+                        <form role="search" action="#" method="get">
+                            <input type="search" name="search" class="form-control top-search mb-0" placeholder="Search here...">
+                            <button type="submit"><iconify-icon icon="solar:magnifer-line-duotone" class="fs-20"></iconify-icon></button>
+                        </form>
+                    </li>                    
+                </ul>
+                <ul class="topbar-item list-unstyled d-inline-flex align-items-center mb-0">
+                    <li class="topbar-item">
+                        <a class="nav-link nav-icon" href="javascript:void(0);" id="light-dark-mode">
+                            <iconify-icon icon="solar:sun-2-line-duotone" class="fs-20 dark-mode"></iconify-icon>
+                            <iconify-icon icon="solar:moon-line-duotone" class="fs-20 light-mode"></iconify-icon>
+                        </a>                    
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="false" aria-expanded="false" data-bs-offset="0,19">
+                       <iconify-icon icon="solar:global-line-duotone" class="fs-20"></iconify-icon>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">English</a>
+                            <a class="dropdown-item" href="#">Spanish</a>
+                        </div>
+                    </li><!--end topbar-language-->
+                    <li class="dropdown topbar-item">
+                        <a class="nav-link dropdown-toggle arrow-none nav-icon position-relative" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="false" aria-expanded="false" data-bs-offset="0,19">
+                            <iconify-icon icon="solar:bell-line-duotone" class="fs-20"></iconify-icon>
+                            <span class="alert-badge"></span>
+                        </a>
+                        <div class="dropdown-menu stop dropdown-menu-end dropdown-lg py-0">
+                        
+                            <h5 class="dropdown-item-text m-0 py-3 d-flex justify-content-between align-items-center">
+                                Notifications <a href="#" class="badge text-body-tertiary badge-pill">
+                                    <i class="iconoir-plus-circle fs-4"></i>
+                                </a>
+                            </h5>
+                            <ul class="nav nav-tabs nav-tabs-custom nav-success nav-justified mb-1" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link mx-0 active" data-bs-toggle="tab" href="#All" role="tab" aria-selected="true">
+                                        All <span class="badge bg-primary-subtle text-primary badge-pill ms-1">24</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link mx-0" data-bs-toggle="tab" href="#Projects" role="tab" aria-selected="false" tabindex="-1">
+                                        Projects
+                                    </a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link mx-0" data-bs-toggle="tab" href="#Teams" role="tab" aria-selected="false" tabindex="-1">
+                                        Team
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="ms-0" style="max-height:230px;" data-simplebar>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="All" role="tabpanel" aria-labelledby="all-tab" tabindex="0">
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">2 min ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">
+                                                    <i class="iconoir-wolf fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">Your order is placed</h6>
+                                                    <small class="text-muted mb-0">Dummy text of the printing and industry.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">10 min ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">
+                                                    <i class="iconoir-apple-swift fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">Meeting with designers</h6>
+                                                    <small class="text-muted mb-0">It is a long established fact that a reader.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">40 min ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">                                                    
+                                                    <i class="iconoir-birthday-cake fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">UX 3 Task complete.</h6>
+                                                    <small class="text-muted mb-0">Dummy text of the printing.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">1 hr ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">
+                                                    <i class="iconoir-drone fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">Your order is placed</h6>
+                                                    <small class="text-muted mb-0">It is a long established fact that a reader.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">2 hrs ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">
+                                                    <i class="iconoir-user fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">Payment Successfull</h6>
+                                                    <small class="text-muted mb-0">Dummy text of the printing.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                    </div>
+                                    <div class="tab-pane fade" id="Projects" role="tabpanel" aria-labelledby="projects-tab" tabindex="0">
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">40 min ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">                                                    
+                                                    <i class="iconoir-birthday-cake fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">UX 3 Task complete.</h6>
+                                                    <small class="text-muted mb-0">Dummy text of the printing.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">1 hr ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">
+                                                    <i class="iconoir-drone fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">Your order is placed</h6>
+                                                    <small class="text-muted mb-0">It is a long established fact that a reader.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">2 hrs ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">
+                                                    <i class="iconoir-user fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">Payment Successfull</h6>
+                                                    <small class="text-muted mb-0">Dummy text of the printing.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                    </div>
+                                    <div class="tab-pane fade" id="Teams" role="tabpanel" aria-labelledby="teams-tab" tabindex="0">
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">1 hr ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">
+                                                    <i class="iconoir-drone fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">Your order is placed</h6>
+                                                    <small class="text-muted mb-0">It is a long established fact that a reader.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                        <!-- item-->
+                                        <a href="#" class="dropdown-item py-3">
+                                            <small class="float-end text-muted ps-2">2 hrs ago</small>
+                                            <div class="d-flex align-items-center">
+                                                <div class="flex-shrink-0 bg-primary-subtle text-primary thumb-md rounded-circle">
+                                                    <i class="iconoir-user fs-4"></i>
+                                                </div>
+                                                <div class="flex-grow-1 ms-2 text-truncate">
+                                                    <h6 class="my-0 fw-normal text-dark fs-13">Payment Successfull</h6>
+                                                    <small class="text-muted mb-0">Dummy text of the printing.</small>
+                                                </div><!--end media-body-->
+                                            </div><!--end media-->
+                                        </a><!--end-item-->
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <!-- All-->
+                            <a href="pages-notifications.html" class="dropdown-item text-center text-dark fs-13 py-2">
+                                View All <i class="fi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="dropdown topbar-item">                   
+                        <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="false" aria-expanded="false" data-bs-offset="0,19">
+                            <div class="d-flex align-items-center dropdown-item">
+                                <div class="flex-shrink-0">
+                                    <img src="assets/images/users/avatar-9.jpg" alt="" class="thumb-sm rounded-circle">
+                                </div>
+                                <div class="flex-grow-1 ms-2 text-truncate align-self-center">
+                                    <h6 class="my-0 fw-medium text-dark fs-12">William Martin</h6>
+                                    <small class="text-muted mb-0">Admin</small>
+                                </div><!--end media-body-->
+                            </div>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <a class="dropdown-item" href="pages-profile.html"><i class="las la-user fs-18 me-1 align-text-bottom"></i> Profile</a>
+                            <a class="dropdown-item" href="pages-profile.html"><i class="las la-cog fs-18 me-1 align-text-bottom"></i>Account Settings</a>
+                            <a class="dropdown-item" href="pages-profile.html"><i class="las la-lock fs-18 me-1 align-text-bottom"></i> Security</a>
+                            <a class="dropdown-item" href="pages-faq.html"><i class="las la-question-circle fs-18 me-1 align-text-bottom"></i> Help Center</a>                       
+                            <div class="dropdown-divider mb-0"></div>
+                            <a class="dropdown-item text-danger" href="auth-login.html"><i class="las la-power-off fs-18 me-1 align-text-bottom"></i> Logout</a>
+                        </div>
+                    </li>
+               
+    
+                
+    
+                
+                </ul><!--end topbar-nav-->
+            </nav>
+            <!-- end navbar-->
+        </div>
+    </div>
+    <!-- Top Bar End -->
+    <!-- leftbar-tab-menu -->
+    <div class="startbar d-print-none">
+        <!--start brand-->
+        <div class="brand d-flex">
+            <a href="index.html" class="logo">
+                <span>
+                    <img src="assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
+                </span>
+                <span class="">
+                    <img src="assets/images/logo-light.png" alt="logo-large" class="logo-lg logo-light">
+                    <img src="assets/images/logo-dark.png" alt="logo-large" class="logo-lg logo-dark">
+                </span>
+            </a>                 
+        </div>
+        <!--end brand--> 
+        <div class="position-relative ">
+            <div class="mobile-menu-btn-2 align-self-center">
+                <button class=" d-flex align-items-center" id="togglemenu">
+                    <i class="fa-solid fa-arrow-right-arrow-left collapse-icon"></i>
+                </button>
+            </div> 
+        </div>
+        <!--start startbar-menu-->
+        <div class="startbar-menu" >
+            <div class="startbar-collapse" id="startbarCollapse" data-simplebar>
+                <div class="d-flex align-items-start flex-column w-100">
+                    <!-- Navigation -->
+                    <ul class="navbar-nav mb-auto w-100">
+                        <li class="menu-label mt-2">
+                            <span>Forex</span>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="fx-index.html">
+                                <iconify-icon icon="solar:home-angle-2-line-duotone"class=" menu-icon"></iconify-icon>
+                                <span>Dashboard</span>
+                                <span class="badge text-bg-pink ms-auto">New</span>
+                            </a>
+                        </li><!--end nav-item-->
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="fx-saving.html">
+                                <iconify-icon icon="solar:banknote-2-line-duotone" class=" menu-icon" ></iconify-icon>
+                                <span>Saving</span>
+                            </a>
+                        </li><!--end nav-item-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="fx-voucher.html">
+                                <iconify-icon icon="solar:file-favourite-line-duotone" class=" menu-icon" ></iconify-icon>
+                                <span>Voucher</span>
+                            </a>
+                        </li><!--end nav-item-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="fx-transaction.html">
+                                <iconify-icon icon="solar:card-transfer-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Transaction</span>
+                            </a>
+                        </li><!--end nav-item-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sidebarDeposits" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarDeposits">
+                                <iconify-icon icon="solar:wallet-money-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Deposits</span>
+                            </a>
+                            <div class="collapse " id="sidebarDeposits">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="fx-deposit.html">Deposit</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="fx-deposit-history.html">Deposit History</a>
+                                    </li><!--end nav-item-->
+                                </ul><!--end nav-->
+                            </div><!--end startbarEmailTemplates-->
+                        </li><!--end nav-item-->   
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sidebarWithdraw" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarWithdraw">
+                                <iconify-icon icon="solar:hand-money-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Withdraw</span>
+                            </a>
+                            <div class="collapse " id="sidebarWithdraw">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="fx-withdraw.html">Withdraw</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="fx-withdraw-history.html">Withdraw History</a>
+                                    </li><!--end nav-item-->
+                                </ul><!--end nav-->
+                            </div><!--end startbarEmailTemplates-->
+                        </li><!--end nav-item--> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sidebarBrokers" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarBrokers">
+                                <iconify-icon icon="solar:shield-user-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Brokers</span>
+                            </a>
+                            <div class="collapse " id="sidebarBrokers">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="fx-open-account.html">Open Account</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="fx-account-list.html">Account List</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="fx-live-trades.html">Live Trades</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="fx-trade-history.html">Trade History</a>
+                                    </li><!--end nav-item-->
+                                </ul><!--end nav-->
+                            </div><!--end startbarEmailTemplates-->
+                        </li><!--end nav-item--> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sidebarPlatform" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarPlatform">
+                                <iconify-icon icon="solar:atom-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Platform</span>
+                            </a>
+                            <div class="collapse " id="sidebarPlatform">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="fx-web-trading.html">Web Trading</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="fx-social-trading.html">Social Trading</a>
+                                    </li><!--end nav-item-->
+                                </ul><!--end nav-->
+                            </div><!--end startbarEmailTemplates-->
+                        </li><!--end nav-item-->                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sidebarProfile" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarProfile">
+                                <iconify-icon icon="solar:user-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Profile</span>
+                            </a>
+                            <div class="collapse " id="sidebarProfile">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="fx-user-information.html">User Information</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="fx-ac-setting.html">Ac.Setting</a>
+                                    </li><!--end nav-item-->
+                                </ul><!--end nav-->
+                            </div><!--end startbarEmailTemplates-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="fx-ib.html">
+                                <iconify-icon icon="solar:hashtag-chat-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Introducting Broker</span>
+                            </a>
+                        </li><!--end nav-item-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="fx-helpdesk.html">
+                                <iconify-icon icon="solar:help-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Helpdesk</span>
+                            </a>
+                        </li><!--end nav-item-->
+                     
+                        <li class="nav-item">
+                            <a class="nav-link" href="auth-login.html">
+                                <iconify-icon icon="solar:lock-password-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Logout</span>
+                            </a>
+                        </li><!--end nav-item-->             
+                        <li class="menu-label mt-2">
+                            <small class="label-border">
+                                <div class="border_left hidden-xs"></div>
+                                <div class="border_right"></div>
+                            </small>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span>Components</span>
+                                <div class="form-check form-switch form-switch-secondary align-self-center mh-auto mb-0">
+                                    <input class="form-check-input" type="checkbox" id="components-show-hide">
+                                    <label class="form-check-label fs-8 label-show" id="statusLabel" for="components-show-hide">Show</label>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarApps" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarApps">
+                                <iconify-icon icon="solar:round-graph-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Apps</span>
+                            </a>
+                            <div class="collapse " id="sidebarApps">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="apps-calendar.html">Calendar</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="apps-chat.html">Chat</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="apps-contact-list.html">Contact List</a>
+                                    </li><!--end nav-item--> 
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="apps-invoice.html">Invoice</a>
+                                    </li><!--end nav-item-->
+                                </ul><!--end nav-->
+                            </div><!--end startbarApps-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarElements" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarElements">
+                                <iconify-icon icon="solar:filters-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>UI Elements</span>
+                            </a>
+                            <div class="collapse " id="sidebarElements">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-alerts.html">Alerts</a>
+                                    </li><!--end nav-item--> 
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-avatar.html">Avatar</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-buttons.html">Buttons</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-badges.html">Badges</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-cards.html">Cards</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-carousels.html">Carousels</a>
+                                    </li><!--end nav-item-->                                
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-dropdowns.html">Dropdowns</a>
+                                    </li><!--end nav-item-->                                   
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-grids.html">Grids</a>
+                                    </li><!--end nav-item-->                                
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-images.html">Images</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-list.html">List</a>
+                                    </li><!--end nav-item-->                                   
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-modals.html">Modals</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-navs.html">Navs</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-navbar.html">Navbar</a>
+                                    </li><!--end nav-item--> 
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-paginations.html">Paginations</a>
+                                    </li><!--end nav-item-->   
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-popover-tooltips.html">Popover & Tooltips</a>
+                                    </li><!--end nav-item-->                                
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-progress.html">Progress</a>
+                                    </li><!--end nav-item-->                                
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-spinners.html">Spinners</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-tabs-accordions.html">Tabs & Accordions</a>
+                                    </li><!--end nav-item-->                               
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-typography.html">Typography</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ui-videos.html">Videos</a>
+                                    </li><!--end nav-item--> 
+                                </ul><!--end nav-->
+                            </div><!--end startbarElements-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarAdvancedUI" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarAdvancedUI">
+                                <iconify-icon icon="solar:bicycling-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Advanced UI</span><span class="badge rounded text-success bg-success-subtle ms-1">New</span>
+                            </a>
+                            <div class="collapse " id="sidebarAdvancedUI">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-animation.html">Animation</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-clipboard.html">Clip Board</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-dragula.html">Dragula</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-files.html">File Manager</a>
+                                    </li><!--end nav-item--> 
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-highlight.html">Highlight</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-rangeslider.html">Range Slider</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-ratings.html">Ratings</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-ribbons.html">Ribbons</a>
+                                    </li><!--end nav-item-->                                  
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-sweetalerts.html">Sweet Alerts</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="advanced-toasts.html">Toasts</a>
+                                    </li><!--end nav-item-->
+                                </ul><!--end nav-->
+                            </div><!--end startbarAdvancedUI-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarForms" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarForms">
+                                <iconify-icon icon="solar:documents-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Forms</span>
+                            </a>
+                            <div class="collapse " id="sidebarForms">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="forms-elements.html">Basic Elements</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="forms-advanced.html">Advance Elements</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="forms-validation.html">Validation</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="forms-wizard.html">Wizard</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="forms-editors.html">Editors</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="forms-uploads.html">File Upload</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="forms-img-crop.html">Image Crop</a>
+                                    </li><!--end nav-item-->
+                                </ul><!--end nav-->
+                            </div><!--end startbarForms-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarCharts" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarCharts">
+                                <iconify-icon icon="solar:chart-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Charts</span>
+                            </a>
+                            <div class="collapse " id="sidebarCharts">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="charts-apex.html">Apex</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="charts-justgage.html">JustGage</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="charts-chartjs.html">Chartjs</a>
+                                    </li><!--end nav-item--> 
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="charts-toast-ui.html">Toast</a>
+                                    </li><!--end nav-item--> 
+                                </ul><!--end nav-->
+                            </div><!--end startbarCharts-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarTables" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarTables">
+                                <iconify-icon icon="solar:server-minimalistic-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Tables</span>
+                            </a>
+                            <div class="collapse " id="sidebarTables">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="tables-basic.html">Basic</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="tables-datatable.html">Datatables</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="tables-editable.html">Editable</a>
+                                    </li><!--end nav-item--> 
+                                </ul><!--end nav-->
+                            </div><!--end startbarTables-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarIcons" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarIcons">
+                                <iconify-icon icon="solar:ufo-3-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Icons</span>
+                            </a>
+                            <div class="collapse " id="sidebarIcons">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="icons-fontawesome.html">Font Awesome</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="icons-lineawesome.html">Line Awesome</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="icons-icofont.html">Icofont</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="icons-iconoir.html">Iconoir</a>
+                                    </li><!--end nav-item-->
+                                </ul><!--end nav-->
+                            </div><!--end startbarIcons-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarMaps" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarMaps">
+                                <iconify-icon icon="solar:map-point-wave-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Maps</span>
+                            </a>
+                            <div class="collapse " id="sidebarMaps">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="maps-google.html">Google Maps</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="maps-leaflet.html">Leaflet Maps</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="maps-vector.html">Vector Maps</a>
+                                    </li><!--end nav-item--> 
+                                </ul><!--end nav-->
+                            </div><!--end startbarMaps-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarEmailTemplates" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarEmailTemplates">
+                                <iconify-icon icon="solar:letter-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Email Templates</span>
+                            </a>
+                            <div class="collapse " id="sidebarEmailTemplates">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="email-templates-basic.html">Basic Action Email</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="email-templates-alert.html">Alert Email</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="email-templates-billing.html">Billing Email</a>
+                                    </li><!--end nav-item-->  
+                                </ul><!--end nav-->
+                            </div><!--end startbarEmailTemplates-->
+                        </li><!--end nav-item-->
+                        <li class="menu-label mt-2 menu-hide d-none">
+                            <small class="label-border">
+                                <div class="border_left hidden-xs"></div>
+                                <div class="border_right"></div>
+                            </small>
+                            <span>Crafted</span>
+                        </li>
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarPages" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarPages">
+                                <iconify-icon icon="solar:notes-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Pages</span>
+                            </a>
+                            <div class="collapse " id="sidebarPages">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-profile.html">Profile</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-notifications.html">Notifications</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-timeline.html">Timeline</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-treeview.html">Treeview</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-starter.html">Starter Page</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-pricing.html">Pricing</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-blogs.html">Blogs</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-faq.html">FAQs</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages-gallery.html">Gallery</a>
+                                    </li><!--end nav-item-->  
+                                </ul><!--end nav-->
+                            </div><!--end startbarPages-->
+                        </li><!--end nav-item-->
+                        <li class="nav-item menu-hide d-none">
+                            <a class="nav-link" href="#sidebarAuthentication" data-bs-toggle="collapse" role="button"
+                                aria-expanded="false" aria-controls="sidebarAuthentication">
+                                <iconify-icon icon="solar:lock-keyhole-line-duotone" class=" menu-icon"></iconify-icon>
+                                <span>Authentication</span>
+                            </a>
+                            <div class="collapse " id="sidebarAuthentication">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="auth-login.html">Log in</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="auth-register.html">Register</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="auth-recover-pw.html">Re-Password</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="auth-lock-screen.html">Lock Screen</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="auth-maintenance.html">Maintenance</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="auth-404.html">Error 404</a>
+                                    </li><!--end nav-item-->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="auth-500.html">Error 500</a>
+                                    </li><!--end nav-item-->
+                                </ul><!--end nav-->
+                            </div><!--end startbarAuthentication-->
+                        </li><!--end nav-item-->
+
+                    </ul><!--end navbar-nav--->
+                    <div class="update-msg text-center"> 
+                        <div class="d-flex justify-content-center align-items-center mx-auto mt-1">
+                            <img src="assets/images/extra/qr.svg" alt="" class="d-inline-block" height="40">
+                        </div>                   
+                        <h5 class="mt-3">Mannat Themes</h5>
+                        <p class="mb-3 text-muted">Silvar is a high quality web applications.</p>
+                        <a href="javascript: void(0);" class="btn btn-sm bg-black text-white shadow-sm rounded-pill mb-1">Upgrade your plan</a>
+                    </div>
+                </div>
+            </div><!--end startbar-collapse-->
+        </div><!--end startbar-menu-->    
+    </div><!--end startbar-->
+    <div class="startbar-overlay d-print-none"></div>
+
+
+    <script>
+
+        const switchBtn = document.getElementById('components-show-hide');
+        const menuItems = document.querySelectorAll('.menu-hide');
+        const statusLabel = document.getElementById('statusLabel');
+
+        switchBtn.addEventListener('change', function () {
+            const show = switchBtn.checked;
+
+            menuItems.forEach(item => {
+            item.classList.toggle('d-none', !show);
+            });
+
+            statusLabel.textContent = show ? 'Hide' : 'Show';
+        });
+    </script>
+    <!-- end leftbar-tab-menu-->
+
+    <div class="page-wrapper">
+
+        <!-- Page Content-->
+        <div class="page-content">
+            <div class="container-fluid"> 
+                
+                <div class="row justify-content-center">                    
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">                      
+                                        <h4 class="card-title">Live Trades</h4>                      
+                                    </div><!--end col-->
+                                </div>  <!--end row-->                                  
+                            </div><!--end card-header-->
+                            <div class="card-body pt-0">
+                                <div class="table-responsive">
+                                    <table class="table mb-0 datatable" id="demo-table">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th>Sr. No</th>
+                                                <th>Login</th>
+                                                <th>Ticket</th>
+                                                <th>Symbol</th>
+                                                <th>Action</th>
+                                                <th>Time</th>
+                                                <th>Price Open</th>
+                                                <th>Price Current</th>
+                                                <th>Price SL</th>
+                                                <th>Price TP</th>
+                                                <th>Volume</th>
+                                                <th>Swap</th>
+                                                <th>Position</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>100123</td>
+                                                <td>548321</td>
+                                                <td>EURUSD</td>
+                                                <td class="text-success fw-medium">Buy</td>
+                                                <td>2024/07/01 10:25</td>
+                                                <td>1.0950</td>
+                                                <td>1.1012</td>
+                                                <td>1.0900</td>
+                                                <td>1.1050</td>
+                                                <td>1.00</td>
+                                                <td>1.20</td>
+                                                <td class="text-success fw-medium">62.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>100124</td>
+                                                <td>548322</td>
+                                                <td>USDJPY</td>
+                                                <td class="text-danger fw-medium">Sell</td>
+                                                <td>2024/07/01 11:00</td>
+                                                <td>160.45</td>
+                                                <td>159.80</td>
+                                                <td>161.00</td>
+                                                <td>159.00</td>
+                                                <td>0.50</td>
+                                                <td>-0.50</td>
+                                                <td class="text-success fw-medium">32.50</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>100125</td>
+                                                <td>548323</td>
+                                                <td>GBPUSD</td>
+                                                <td class="text-success fw-medium">Buy</td>
+                                                <td>2024/07/02 09:30</td>
+                                                <td>1.2650</td>
+                                                <td>1.2685</td>
+                                                <td>1.2600</td>
+                                                <td>1.2700</td>
+                                                <td>0.20</td>
+                                                <td>0.10</td>
+                                                <td class="text-danger fw-medium">7.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>100126</td>
+                                                <td>548324</td>
+                                                <td>XAUUSD</td>
+                                                <td class="text-danger fw-medium">Sell</td>
+                                                <td>2024/07/02 10:00</td>
+                                                <td>2320.00</td>
+                                                <td>2310.50</td>
+                                                <td>2330.00</td>
+                                                <td>2300.00</td>
+                                                <td>0.10</td>
+                                                <td>-1.00</td>
+                                                <td class="text-success fw-medium">9.50</td>
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>100127</td>
+                                                <td>548325</td>
+                                                <td>BTCUSD</td>
+                                                <td class="text-success fw-medium">Buy</td>
+                                                <td>2024/07/02 14:45</td>
+                                                <td>59000</td>
+                                                <td>60200</td>
+                                                <td>58500</td>
+                                                <td>61000</td>
+                                                <td>0.01</td>
+                                                <td>0.00</td>
+                                                <td class="text-success fw-medium">120.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>6</td>
+                                                <td>100128</td>
+                                                <td>548326</td>
+                                                <td>ETHUSD</td>
+                                                <td class="text-danger fw-medium">Sell</td>
+                                                <td>2024/07/03 08:15</td>
+                                                <td>3150</td>
+                                                <td>3125</td>
+                                                <td>3200</td>
+                                                <td>3100</td>
+                                                <td>0.05</td>
+                                                <td>-0.20</td>
+                                                <td class="text-success fw-medium">12.50</td>
+                                            </tr>
+                                            <tr>
+                                                <td>7</td>
+                                                <td>100129</td>
+                                                <td>548327</td>
+                                                <td>USDCHF</td>
+                                                <td class="text-success fw-medium">Buy</td>
+                                                <td>2024/07/03 10:50</td>
+                                                <td>0.9050</td>
+                                                <td>0.9062</td>
+                                                <td>0.9000</td>
+                                                <td>0.9100</td>
+                                                <td>1.00</td>
+                                                <td>0.15</td>
+                                                <td class="text-danger fw-medium">12.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>8</td>
+                                                <td>100130</td>
+                                                <td>548328</td>
+                                                <td>AAPL</td>
+                                                <td class="text-success fw-medium">Buy</td>
+                                                <td>2024/07/03 13:30</td>
+                                                <td>192.00</td>
+                                                <td>195.50</td>
+                                                <td>190.00</td>
+                                                <td>198.00</td>
+                                                <td>0.20</td>
+                                                <td>0.00</td>
+                                                <td class="text-success fw-medium">70.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>9</td>
+                                                <td>100131</td>
+                                                <td>548329</td>
+                                                <td>TSLA</td>
+                                                <td class="text-danger fw-medium">Sell</td>
+                                                <td>2024/07/04 09:20</td>
+                                                <td>685.00</td>
+                                                <td>670.00</td>
+                                                <td>690.00</td>
+                                                <td>660.00</td>
+                                                <td>0.10</td>
+                                                <td>-1.50</td>
+                                                <td class="text-success fw-medium">15.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>10</td>
+                                                <td>100132</td>
+                                                <td>548330</td>
+                                                <td>EURJPY</td>
+                                                <td class="text-success fw-medium">Buy</td>
+                                                <td>2024/07/04 10:40</td>
+                                                <td>173.20</td>
+                                                <td>174.00</td>
+                                                <td>172.00</td>
+                                                <td>175.00</td>
+                                                <td>0.30</td>
+                                                <td>0.25</td>
+                                                <td class="text-success fw-medium">24.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>11</td>
+                                                <td>100133</td>
+                                                <td>548331</td>
+                                                <td>USDINR</td>
+                                                <td class="text-danger fw-medium">Sell</td>
+                                                <td>2024/07/04 11:15</td>
+                                                <td>83.20</td>
+                                                <td>83.00</td>
+                                                <td>83.50</td>
+                                                <td>82.80</td>
+                                                <td>1.00</td>
+                                                <td>0.00</td>
+                                                <td class="text-success fw-medium">20.00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>   
+                                    <button type="button" class="btn btn-sm btn-primary export-csv" id="export-csv">Export CSV</button>
+                                    <button type="button" class="btn btn-sm btn-primary export-sql" id="export-sql">Export SQL</button>
+                                    <button type="button" class="btn btn-sm btn-primary export-txt" id="export-txt">Export TXT</button>
+                                    <button type="button" class="btn btn-sm btn-primary export-json" id="export-json">Export JSON</button>                                   
+                                </div><!--end /div-->                                
+                            </div><!--end card-body--> 
+                        </div><!--end card--> 
+                    </div> <!--end col-->                                
+                </div><!--end row-->
+                
+            </div><!-- container -->
+
+            <!--Start Footer-->
+            
+            <footer class="footer text-center text-sm-start d-print-none">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card mb-0 rounded-bottom-0">
+                                <div class="card-body">
+                                    <p class="text-muted mb-0">
+                                        ©
+                                        <script> document.write(new Date().getFullYear()) </script>
+                                        Silvar
+                                        <span
+                                            class="text-muted d-none d-sm-inline-block float-end">
+                                            Design with
+                                            <i class="iconoir-heart-solid text-danger align-middle"></i>
+                                            by Mannatthemes</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <!--end footer-->
+        </div>
+        <!-- end page content -->
+    </div>
+    <!-- end page-wrapper -->
+
+    <!-- Javascript  -->
+    
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/iconify-icon/iconify-icon.min.js"></script>
+    <script src="assets/libs/simple-datatables/umd/simple-datatables.js"></script>
+    <script type="module" src="assets/js/pages/deposit-history.init.js"></script>  
+    <script src="assets/js/app.js"></script>
+</body>
+<!--end body-->
+
+
+<!-- Mirrored from mannatthemes.com/silvar/default/fx-live-trades.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Jan 2026 08:02:31 GMT -->
+</html>

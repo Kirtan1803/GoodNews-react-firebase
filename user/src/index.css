@@ -1,0 +1,13 @@
+.top-wrap{
+  background-color: red;
+}
+.active{
+  color: red !important;
+}
+
+/* color:violet */
+
+.post-wrap{
+  /* border: 2px solid red; */
+  margin-bottom: 40px;
+}
